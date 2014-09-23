@@ -23,4 +23,4 @@
 
 
 **肆、需求分析**
-<br><img align=center src="http://i.imgur.com/sKBgeUP.png" >
+<p align=center><img src=http://i.imgur.com/sKBgeUP.png></p>
