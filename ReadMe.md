@@ -26,8 +26,48 @@
 **肆、需求分析**
 <p align=center><img src=http://i.imgur.com/BEUQbLg.jpg></p>
 
-**伍、**
-
+**伍、事件表**
+<table width="800" border="1" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>事件表</td>
+    <td>使用案例</td>
+  </tr>
+  <tr>
+    <td>1.查看自己的身體狀況</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>2.查看復健紀錄統計表</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>3.互動式復健動作校正</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>4.消費者使用狀況統計</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>5.復健規劃建議</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>6.意見回饋</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>7.</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
 
 
 **?、資料來源**
