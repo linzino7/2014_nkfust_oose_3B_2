@@ -27,7 +27,7 @@
 <p align=center><img src=http://i.imgur.com/BEUQbLg.jpg></p>
 
 **伍、事件表**
-<table width="800" border="1" cellpadding="0" cellspacing="0">
+<table>
   <tr>
     <td colspan="2">&nbsp;</td>
   </tr>
