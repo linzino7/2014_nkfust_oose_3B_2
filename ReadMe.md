@@ -40,19 +40,19 @@
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td>2.查看復健紀錄統計表</td>
+    <td>2.互動式復健動作校正</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td>3.互動式復健動作校正</td>
+    <td>3.查看復健紀錄統計表</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td>4.消費者使用狀況統計</td>
+    <td>4.復健規劃建議</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td>5.復健規劃建議</td>
+    <td>5.消費者使用狀況統計</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
