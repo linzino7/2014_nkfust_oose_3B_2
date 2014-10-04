@@ -23,10 +23,6 @@
 
 **肆、利害關係人目標表**
 <table border="1" cellpadding="0" cellspacing="0">
-    <colgroup>
-      <col width="111" />
-      <col width="513" />
-    </colgroup>
     <tr>
       <td><p >利害關係人（參與者）</p></td>
       <td><p>目標</p></td>
