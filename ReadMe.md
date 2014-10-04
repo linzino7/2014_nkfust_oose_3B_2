@@ -21,12 +21,39 @@
 **參、利害關係人**
 <p align=center><img src=http://i.imgur.com/Ih3kurh.jpg></p>
 
-
-
-**肆、需求分析**
+**肆、利害關係人目標表**
+<table border="1" cellpadding="0" cellspacing="0">
+    <colgroup>
+      <col width="111" />
+      <col width="513" />
+    </colgroup>
+    <tr>
+      <td><p >利害關係人（參與者）</p></td>
+      <td><p>目標</p></td>
+    </tr>
+    <tr>
+      <td><p >復健病人</p></td>
+      <td><p >1.復健動作的正確性增加。</p>
+        <p >2.即時分析身體狀況。</p>
+        <p >3.正確地掌握復建的行程。</p>
+        <p >4.即時獲取復健相關資訊。</p></td>
+    </tr>
+    <tr>
+      <td><p >醫生</p></td>
+      <td><p >1.正確地掌控使用者的復健狀況。</p>
+        <p >2.即時給予適當使用者的復健決策。</p></td>
+    </tr>
+    <tr>
+      <td><p >家屬</p></td>
+      <td><p >1.快速地了解使用者實際狀況。 </p>
+        <p >2.即時獲得相關適合使用者的復健改善方法或建議。</p></td>
+    </tr>
+  </table>
+  
+**伍、需求分析**
 <p align=center><img src=http://i.imgur.com/BEUQbLg.jpg></p>
 
-**伍、事件表**
+**陸、事件表**
 <table>
   <tr>
     <td colspan="2">&nbsp;</td>
