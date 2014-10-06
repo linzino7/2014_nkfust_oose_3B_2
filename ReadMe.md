@@ -91,6 +91,127 @@
 
 **個別使用案例**
 
+<table border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="149" valign="top"><p>使用案例名稱</p></td>
+    <td width="408" colspan="2" valign="top"><p>復健規劃建議系統</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>使用案例敘述</p></td>
+    <td width="408" colspan="2" valign="top"><p>當使用者結束，經過累計的系統資料，去與資料庫中的建議比對，給予出適當的建議</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>主要參與者</p></td>
+    <td width="408" colspan="2" valign="top"><p>使用者、家屬、醫生</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>利害關係人與目標</p></td>
+    <td width="408" colspan="2" valign="top"><p>使用者:即時獲取復健相關資訊。 <br />
+      家屬: 即時獲得相關適合使用者的復健改善方法或建議。<br />
+      醫生: 即時給予適當使用者的復健決策。</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>前置條件</p></td>
+    <td width="408" colspan="2" valign="top"><p>使用者已經執行過復健遊戲系統。</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>後置條件</p></td>
+    <td width="408" colspan="2" valign="top"><p>紀錄該使用者到的復健決策到資料庫中</p></td>
+  </tr>
+  <tr>
+    <td width="149" rowspan="2" valign="top"><p>主要成功情節</p></td>
+    <td width="204" valign="top"><p>參與者</p></td>
+    <td width="204" valign="top"><p>系統</p></td>
+  </tr>
+  <tr>
+    <td width="204" valign="top"><ol>
+      <li>使用者打開復健規劃建議系統。</li>
+      <li>輸入使用者名稱</li>
+    </ol>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <ol>
+        <li>系統調出該使用者的復健建議。</li>
+        <li>關閉紀錄。</li>
+      </ol></td>
+    <td width="204" valign="top"><ol>
+      <li>連接上資料庫。</li>
+    </ol>
+      <p>&nbsp;</p>
+      <ol>
+        <li>查詢使用者名子，並抓取資料庫中的使用者歷史資料，並與建議資料庫做比對。</li>
+        <li>顯示比對後的解果。</li>
+      </ol>
+      <ol>
+        <li>關閉資料庫連接與儲存復健建議到使用者記錄下。</li>
+      </ol></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>例外情節</p></td>
+    <td width="408" colspan="2" valign="top"><p>如果使用者沒有任何復健遊戲系統的遊戲紀錄，將跳出。</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>其他需求</p></td>
+    <td width="408" colspan="2" valign="top"><p>&nbsp;</p></td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="149" valign="top"><p>使用案例名稱</p></td>
+    <td width="408" colspan="2" valign="top"><p>消費者使用狀況統計 </p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>使用案例敘述</p></td>
+    <td width="408" colspan="2" valign="top"><p>可以觀看所有使用者的復健資料。</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>主要參與者</p></td>
+    <td width="408" colspan="2" valign="top"><p>醫生 與 開發者</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>利害關係人與目標</p></td>
+    <td width="408" colspan="2" valign="top"><p>開發者:了解機器所有使用者的使用狀況<br />
+      醫生: 了解目前所有病人</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>前置條件</p></td>
+    <td width="408" colspan="2" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>後置條件</p></td>
+    <td width="408" colspan="2" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="149" rowspan="2" valign="top"><p>主要成功情節</p></td>
+    <td width="204" valign="top"><p>參與者</p></td>
+    <td width="204" valign="top"><p>系統</p></td>
+  </tr>
+  <tr>
+    <td width="204" valign="top"><ol>
+      <li>點選消費者使用狀況統計。 </li>
+      <li>輸入帳號密碼 </li>
+      <li>顯示所有情形</li>
+      <li>可做刪除的動作。</li>
+      <li>離開系統</li>
+    </ol></td>
+    <td width="204" valign="top"><ol>
+      <li>連結權限資料庫</li>
+      <li>比對帳號密碼是否正確，如果不正確則跳出系統。</li>
+      <li>連接所有使用者資料，並顯示</li>
+      <li>如遇刪除，則刪除、儲存後跳回第3動作</li>
+      <li>關閉系統</li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>例外情節</p></td>
+    <td width="408" colspan="2" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>其他需求</p></td>
+    <td width="408" colspan="2" valign="top"><p>&nbsp;</p></td>
+  </tr>
+</table>
 
 **個別使用案例的活動圖**
 <p align="center"><img src="http://i.imgur.com/IlIIKJR.png"></p>
