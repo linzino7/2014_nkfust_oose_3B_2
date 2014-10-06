@@ -146,7 +146,7 @@
   </tr>
 </table>
 
-<table border="1" cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="149" valign="top"><p>使用案例名稱 </p></td>
     <td width="408" colspan="2" valign="top"><p>互動式復健動作校正。 </p></td>
@@ -251,7 +251,7 @@
   </tr>
 </table>
 
-<table border="1" cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="149" valign="top"><p>使用案例名稱</p></td>
     <td width="408" colspan="2" valign="top"><p>復健規劃建議系統</p></td>
