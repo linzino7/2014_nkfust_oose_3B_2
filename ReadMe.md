@@ -18,6 +18,7 @@
 　　保守估計30-66%的中風患者，中風六個月後上肢動作功能仍有問題，接著就要進入復健的程序中。在進行復健行為時，會重複同一個動作，讓患者感到疲乏無趣，我們在本專題內透過kinect與unity，開發出適合中風患者的體感遊戲，以上肢動作訓練為復健之重點，讓使用者在進行復健時不會感到無趣。
 
 
+
 **參、利害關係人**
 <p align=center><img src=http://i.imgur.com/Ih3kurh.jpg></p>
 
@@ -49,10 +50,11 @@
 **伍、需求分析**
 <p align=center><img src=http://i.imgur.com/BEUQbLg.jpg></p>
 
-**陸、事件表**
+**陸、事件與使用案例表**
+
 <table>
   <tr>
-    <td colspan="2">&nbsp;</td>
+    <td colspan="2">事件與使用案例表</td>
   </tr>
   <tr>
     <td>事件表</td>
@@ -82,16 +84,16 @@
     <td>6.意見回饋</td>
     <td>意見回覆系統</td>
   </tr>
-  <tr>
-    <td>7.</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
 </table>
 
+**使用案例圖**
+<p align=center><img src=http://i.imgur.com/T8VJ7eZ.png></p>
+
+**個別使用案例**
+
+
+**個別使用案例的活動圖**
+<p align=center><img src=http://i.imgur.com/IlIIKJR.png></p>
 
 **?、資料來源**
 http://www.carer.com.tw/edcontent.php?tb=2  
