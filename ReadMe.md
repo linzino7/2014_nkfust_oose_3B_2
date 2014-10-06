@@ -46,11 +46,11 @@
     </tr>
  </table>
   
-**伍、需求分析**
+
 <p align=center><img src=http://i.imgur.com/BEUQbLg.jpg></p>
 
 **陸、事件與使用案例表**
-<table>
+<table border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td colspan="2">事件與使用案例表</td>
   </tr>
