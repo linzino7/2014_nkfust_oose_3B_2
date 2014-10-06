@@ -19,7 +19,7 @@
 
 
 **參、利害關係人**
-<p align=center><img src=http://i.imgur.com/Ih3kurh.jpg></p>
+<p align="center"><img src="http://i.imgur.com/Ih3kurh.jpg"></p>
 
 **肆、利害關係人目標表**
 <table border="0" cellpadding="0" cellspacing="0">
