@@ -655,9 +655,9 @@
 
   <table border="0" cellpadding="0" cellspacing="0">
     <colgroup>
-      <col width="146" />
-      <col width="388" />
-      <col width="90" />
+      <col  />
+      <col  />
+      <col  />
     </colgroup>
     <tr>
       <td><p >名詞</p></td>
