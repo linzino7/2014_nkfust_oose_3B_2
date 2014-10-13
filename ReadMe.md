@@ -441,6 +441,258 @@
 <p align="center"><img src="http://i.imgur.com/bLxCMpz.png"></p>
 六、 意見回饋系統</br>
 <p align="center"><img src="http://i.imgur.com/nzzlScn.png"></p>
+</br>
+
+**每個使用案例的名詞與概念類別列舉表**
+<p >身體狀況檢測系統</p>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <colgroup>
+      <col width="146" />
+      <col width="388" />
+      <col width="90" />
+    </colgroup>
+    <tr>
+      <td><p >名詞</p></td>
+      <td><p >原因</p></td>
+      <td><p >結果</p></td>
+    </tr>
+    <tr>
+      <td><p >身分證ID</p></td>
+      <td><p >為病人屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >名字</p></td>
+      <td><p >為病人屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >性別</p></td>
+      <td><p >為病人屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >血型</p></td>
+      <td><p >為病人屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >身高</p></td>
+      <td><p >為病人屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >體重</p></td>
+      <td><p >為病人屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >重大疾病史</p></td>
+      <td><p >為病人屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >病因</p></td>
+      <td><p >為病人屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >病人</p></td>
+      <td><p >本系統需要瞭解病人的狀況，所以病人必須成為一個需要處理的個體。</p></td>
+      <td><p >是</p>
+        <br /></td>
+    </tr>
+    <tr>
+      <td><p >申請表格</p></td>
+      <td><p >如果沒有註冊時、申請的表格，為檢測系統的屬性</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >密碼 </p></td>
+      <td><p >為病人屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+  </table>
+
+<br />
+<p >互動式復健動作校正。</p>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <colgroup>
+      <col width="146" />
+      <col width="388" />
+      <col width="90" />
+    </colgroup>
+    <tr>
+      <td><p >名詞</p></td>
+      <td><p >原因</p></td>
+      <td><p >結果</p></td>
+    </tr>
+    <tr>
+      <td><p >正確率</p></td>
+      <td><p >為統計圖表屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >錯誤率</p></td>
+      <td><p >為統計圖表屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >復健動作</p></td>
+      <td><p >為比對病人動作是否正確的正確動作資訊，重要。</p></td>
+      <td><p >是</p></td>
+    </tr>
+    <tr>
+      <td><p >姿勢</p></td>
+      <td><p >讀取使用者動作資訊。</p></td>
+      <td><p >否</p></td>
+    </tr>
+  </table>
+
+<br />
+<p >復健狀況統計系統</p>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <colgroup>
+      <col width="146" />
+      <col width="388" />
+      <col width="90" />
+    </colgroup>
+    <tr>
+      <td width="94"><p >名詞</p></td>
+      <td width="178"><p >原因</p></td>
+      <td width="32"><p >結果</p></td>
+    </tr>
+    <tr>
+      <td><p >統計圖表</p></td>
+      <td><p >為病人狀況統計資料，重要。</p></td>
+      <td><p >是</p></td>
+    </tr>
+  </table>
+
+<br />
+<p >復健規劃建議系統</p>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <colgroup>
+      <col width="146" />
+      <col width="388" />
+      <col width="90" />
+    </colgroup>
+    <tr>
+      <td><p >名詞</p></td>
+      <td><p >原因</p></td>
+      <td><p >結果</p></td>
+    </tr>
+    <tr>
+      <td><p >資料庫</p></td>
+      <td><p >許多系統都要與資料庫連結，所以需要一個專門處理與所有資料庫連結的類別。</p></td>
+      <td><p >是</p></td>
+    </tr>
+    <tr>
+      <td><p >復健行程規畫表</p></td>
+      <td><p >本系統需要記錄病人的行程。</p></td>
+      <td><p >是</p></td>
+    </tr>
+  </table>
+
+<br />
+<p >消費者使用狀況統計</p>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <colgroup>
+      <col width="146" />
+      <col width="388" />
+      <col width="90" />
+    </colgroup>
+    <tr>
+      <td><p >名詞</p></td>
+      <td><p >原因</p></td>
+      <td><p >結果</p></td>
+    </tr>
+    <tr>
+      <td><p >使用狀況統計</p></td>
+      <td><p >本系統需要記錄病人的使用狀況。</p></td>
+      <td><p >是</p></td>
+    </tr>
+    <tr>
+      <td><p >年齡比率</p></td>
+      <td><p >使用狀況統計的屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >身高比率</p></td>
+      <td><p >使用狀況統計的屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >性別比率</p></td>
+      <td><p >使用狀況統計的屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >體重比率</p></td>
+      <td><p >使用狀況統計的屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >病因統計</p></td>
+      <td><p >使用狀況統計的屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >使用者每個復健動作完成率</p>
+        <br /></td>
+      <td><p >使用狀況統計的屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+  </table>
+
+<br />
+<p >意見回饋系統</p>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <colgroup>
+      <col width="146" />
+      <col width="388" />
+      <col width="90" />
+    </colgroup>
+    <tr>
+      <td><p >名詞</p></td>
+      <td><p >原因</p></td>
+      <td><p >結果</p></td>
+    </tr>
+    <tr>
+      <td><p >表單</p></td>
+      <td><p >處理且整理意見回饋，成可記錄的格式。</p></td>
+      <td><p >是</p></td>
+    </tr>
+    <tr>
+      <td><p >使用者名稱</p></td>
+      <td><p >表單的屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >發生時間</p></td>
+      <td><p >表單的屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >觸發的狀態</p></td>
+      <td><p >表單的屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+    <tr>
+      <td><p >出現的問題</p></td>
+      <td><p >表單的屬性。</p></td>
+      <td><p >否</p></td>
+    </tr>
+  </table>
+
+**OOOOXXXX**
+**OOOOXXXX**
 
 **?、資料來源**
 http://www.carer.com.tw/edcontent.php?tb=2  
