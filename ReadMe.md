@@ -87,7 +87,7 @@
 </table>
 
 **使用案例圖**
-<p align="center"><img src="http://i.imgur.com/IlIIKJR.png"></p>
+<p align="center"><img src="http://i.imgur.com/fGw4Yc7.png"></p>
 
 
 **個別使用案例**
@@ -179,7 +179,8 @@
       <li>在主畫面使用者點擊互動式復健動作校正進入系統。 </li>
       <li>使用者可以選擇系統自動規劃或自訂復健行程。 </li>
       <li>使用者依照畫面示範的動作，依樣畫葫蘆地做。 </li>
-      <li>系統會依造使用者的動作與資料庫比較，查看其動作正確性，並給予提示，並記錄其正確率及錯誤率。 </li>
+      <li>系統會依造使用者的動作與資料庫比較，查看其動作正確性，並給予提示，並記錄其正確率及錯誤率。
+ </li>
     </ol>
       <p>如果使用者姿勢錯誤則跳回4，等待正確。 <br />
         反之，正確則跳回3，直到行程結束。 </p>
@@ -203,51 +204,7 @@
   </tr>
 </table>
 
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="149" valign="top"><p>使用案例名稱 </p></td>
-    <td width="408" colspan="2" valign="top"><p>復健狀況統計系統。 </p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>使用案例敘述 </p></td>
-    <td width="408" colspan="2" valign="top"><p>使用者透過復健狀況統計系統，能夠正確地掌握自己復健進度與規劃。 </p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>主要參與者 </p></td>
-    <td width="408" colspan="2" valign="top"><p>使用者。 </p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>利害關係人與目標 </p></td>
-    <td width="408" colspan="2" valign="top"><p>使用者：正確地掌握復建的行程。 </p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>前置條件 </p></td>
-    <td width="408" colspan="2" valign="top"><p>要先使用過互動式復健動作校正，才會有使用記錄。 </p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>後置條件 </p></td>
-    <td width="408" colspan="2" valign="top"><p>無。 </p></td>
-  </tr>
-  <tr>
-    <td width="149" rowspan="2" valign="top"><p>主要成功情節 </p></td>
-    <td width="204" valign="top"><p>參與者 </p></td>
-    <td width="204" valign="top"><p>系統 </p></td>
-  </tr>
-  <tr>
-    <td width="204" valign="top"><p>1.在主畫面使用者點擊復健狀況統計系統進入系統。 <br />
-      2.顯示使用者的復健行程、規畫表與統計圖表。 </p></td>
-    <td width="204" valign="top"><p>1.1系統開啟主畫面與復健狀況統計系統畫面。 <br />
-      2.1系統根據使用者編號，讀取資料庫相對應的行程、規劃、統計資料，並顯示於畫面上。 </p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>例外情節 </p></td>
-    <td width="408" colspan="2" valign="top"><p>使用者如果尚未執行互動式復健動作校正系統，系統需要顯示警告訊息並要求先行使用互動式復健動作校正系統。 </p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>其他需求 </p></td>
-    <td width="408" colspan="2" valign="top"><p>無。 </p></td>
-  </tr>
-</table>
+
 
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
@@ -283,26 +240,18 @@
   </tr>
   <tr>
     <td width="204" valign="top"><ol>
-      <li>使用者打開復健規劃建議系統。</li>
-      <li>輸入使用者名稱</li>
-    </ol>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <ol>
-        <li>系統調出該使用者的復健建議。</li>
-        <li>關閉紀錄。</li>
+      <li>使用者從主畫面點擊打開復健規劃建議系統。</li>
+      <li顯示復健建議。</li>
+        <li>結束後返回動作1。</li>
       </ol></td>
     <td width="204" valign="top"><ol>
       <li>連接上資料庫。</li>
     </ol>
       <p>&nbsp;</p>
       <ol>
-        <li>查詢使用者名子，並抓取資料庫中的使用者歷史資料，並與建議資料庫做比對。</li>
-        <li>顯示比對後的解果。</li>
+        <li>系統開啟復健規劃建議系統。</li>
+        <li>查詢復健建議。</li>
       </ol>
-      <ol>
-        <li>關閉資料庫連接與儲存復健建議到使用者記錄下。</li>
-      </ol></td>
   </tr>
   <tr>
     <td width="149" valign="top"><p>例外情節</p></td>
@@ -314,62 +263,6 @@
   </tr>
 </table>
 
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="149" valign="top"><p>使用案例名稱</p></td>
-    <td width="408" colspan="2" valign="top"><p>消費者使用狀況統計 </p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>使用案例敘述</p></td>
-    <td width="408" colspan="2" valign="top"><p>可以觀看所有使用者的復健資料。</p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>主要參與者</p></td>
-    <td width="408" colspan="2" valign="top"><p>醫生 與 開發者</p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>利害關係人與目標</p></td>
-    <td width="408" colspan="2" valign="top"><p>開發者:了解機器所有使用者的使用狀況<br />
-      醫生: 了解目前所有病人</p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>前置條件</p></td>
-    <td width="408" colspan="2" valign="top"><p>&nbsp;</p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>後置條件</p></td>
-    <td width="408" colspan="2" valign="top"><p>&nbsp;</p></td>
-  </tr>
-  <tr>
-    <td width="149" rowspan="2" valign="top"><p>主要成功情節</p></td>
-    <td width="204" valign="top"><p>參與者</p></td>
-    <td width="204" valign="top"><p>系統</p></td>
-  </tr>
-  <tr>
-    <td width="204" valign="top"><ol>
-      <li>點選消費者使用狀況統計。 </li>
-      <li>輸入帳號密碼 </li>
-      <li>顯示年齡比率、性別比率、身高比率、體重比率、病因統計、使用者每個復健動作完成率。</li>
-      <li>可做刪除的動作。</li>
-      <li>離開系統</li>
-    </ol></td>
-    <td width="204" valign="top"><ol>
-      <li>連結權限資料庫</li>
-      <li>比對帳號密碼是否正確，如果不正確則跳出系統。</li>
-      <li>連接所有使用者資料，並顯示</li>
-      <li>如遇刪除，則刪除、儲存後跳回第3動作</li>
-      <li>關閉系統</li>
-    </ol></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>例外情節</p></td>
-    <td width="408" colspan="2" valign="top"><p>&nbsp;</p></td>
-  </tr>
-  <tr>
-    <td width="149" valign="top"><p>其他需求</p></td>
-    <td width="408" colspan="2" valign="top"><p>&nbsp;</p></td>
-  </tr>
-</table>
 
 
 <table border="0" cellspacing="0" cellpadding="0">
@@ -405,14 +298,13 @@
   </tr>
   <tr>
     <td width="204" valign="top"><ol>
-      <li>使用者選入系統</li>
-      <li> 將使用者名稱、發生時間、觸發的狀態、及出現的問題紀錄到表單之中，並傳送。</li>
-      <li>離開表單</li>
+      <li>使用者點擊進入意見回饋系統</li>
+      <li> 使用者輸入發生時間、觸發的狀態、及出現的問題紀錄到表單之中，並點擊傳送。</li>
+      <li>結束後回到動作1</li>
     </ol></td>
     <td width="204" valign="top"><ol>
-      <li>讀取表單。</li>
-      <li>將使用者填好的表單傳送至開發者端資料庫。</li>
-      <li>關閉系統</li>
+      <li>系統開啟意見回饋表單。</li>
+      <li>記錄表單資料，並傳送至資料庫。</li>
     </ol></td>
   </tr>
   <tr>
@@ -430,17 +322,13 @@
 **個別使用案例的活動圖**
 </br>
 一、 身體狀況檢測系統</br>
-<p align="center"><img src="http://i.imgur.com/gFTCVRj.png"></p>
+<p align="center"><img src="http://i.imgur.com/YWVurIZ.png"></p>
 二、  互動式復健動作校正</br>
-<p align="center"><img src="http://i.imgur.com/jVBzb43.png"></p>
-三、  復健狀況統計系統</br>
-<p align="center"><img src="http://i.imgur.com/rycKzcc.png"></p>
-四、  復健規劃建議系統</br>
-<p align="center"><img src="http://i.imgur.com/LjeoouG.png"></p>
-五、  消費者使用狀況統計</br>
-<p align="center"><img src="http://i.imgur.com/bLxCMpz.png"></p>
-六、 意見回饋系統</br>
-<p align="center"><img src="http://i.imgur.com/nzzlScn.png"></p>
+<p align="center"><img src="http://i.imgur.com/fRFuzLu.png"></p>
+三、  復健規劃建議系統</br>
+<p align="center"><img src="http://i.imgur.com/Bp06VGI.png"></p>
+四、 意見回饋系統</br>
+<p align="center"><img src="http://i.imgur.com/JQGKEdp.png"></p>
 </br>
 
 **每個使用案例的名詞與概念類別列舉表**
