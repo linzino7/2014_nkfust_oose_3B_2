@@ -783,7 +783,8 @@
 
 
 **使用案例之系統循序圖**
-</br>
+<br>
+<br>
 一、 身體狀況檢測系統</br>
 <p align="center"><img src="http://i.imgur.com/XKns58V.png"></p>
 二、  互動式復健動作校正</br>
