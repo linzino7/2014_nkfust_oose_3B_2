@@ -48,7 +48,7 @@
   
 **伍、需求分析(陳則宏)**
 <br>
-<p align="center"><img src="http://i.imgur.com/BEUQbLg.jpg"></p>
+<p align="center"><img src="http://i.imgur.com/ucelteh.jpg"></p>
 
 **陸、事件與使用案例表(林建興)**
 
@@ -69,19 +69,11 @@
     <td>復健遊戲系統</td>
   </tr>
   <tr>
-    <td>3.查看復健紀錄統計表</td>
-    <td>復健狀況統計系統</td>
-  </tr>
-  <tr>
-    <td>4.復健規劃建議</td>
+    <td>3.復健規劃建議</td>
     <td>復健規劃建議系統</td>
   </tr>
   <tr>
-    <td>5.消費者使用狀況統計</td>
-    <td>消費者使用狀況統計系統</td>
-  </tr>
-  <tr>
-    <td>6.意見回饋</td>
+    <td>4.意見回饋</td>
     <td>意見回覆系統</td>
   </tr>
 </table>
@@ -343,7 +335,7 @@
     <tr>
       <td><p >名詞</p></td>
       <td><p >原因</p></td>
-      <td><p >結果</p></td>
+      <td><p >結果(是否為概念類別)</p></td>
     </tr>
     <tr>
       <td><p >身分證ID</p></td>
@@ -415,7 +407,7 @@
     <tr>
       <td><p >名詞</p></td>
       <td><p >原因</p></td>
-      <td><p >結果</p></td>
+      <td><p >結果(是否為概念類別)</p></td>
     </tr>
     <tr>
       <td><p >正確率</p></td>
@@ -452,7 +444,7 @@
     <tr>
       <td><p >名詞</p></td>
       <td><p >原因</p></td>
-      <td><p >結果</p></td>
+      <td><p >結果(是否為概念類別)</p></td>
     </tr>
     <tr>
       <td><p >資料庫</p></td>
@@ -479,7 +471,7 @@
     <tr>
       <td><p >名詞</p></td>
       <td><p >原因</p></td>
-      <td><p >結果</p></td>
+      <td><p >結果(是否為概念類別)</p></td>
     </tr>
     <tr>
       <td><p >表單</p></td>
@@ -508,7 +500,7 @@
     </tr>
   </table>
 
-**個別使用案例的活動圖**
+**初步類別圖**
 </br>
 一、 身體狀況檢測系統(陳則宏)</br>
 <p align="center"><img src="http://i.imgur.com/I4UUB8Z.png"></p>
