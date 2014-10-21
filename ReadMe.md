@@ -439,26 +439,6 @@
     </tr>
   </table>
 
-<br />
-<p >復健狀況統計系統</p>
-
-  <table border="0" cellpadding="0" cellspacing="0">
-    <colgroup>
-      <col width="146" />
-      <col width="388" />
-      <col width="90" />
-    </colgroup>
-    <tr>
-      <td width="94"><p >名詞</p></td>
-      <td width="178"><p >原因</p></td>
-      <td width="32"><p >結果</p></td>
-    </tr>
-    <tr>
-      <td><p >統計圖表</p></td>
-      <td><p >為病人狀況統計資料，重要。</p></td>
-      <td><p >是</p></td>
-    </tr>
-  </table>
 
 <br />
 <p >復健規劃建議系統</p>
@@ -486,57 +466,6 @@
     </tr>
   </table>
 
-<br />
-<p >消費者使用狀況統計</p>
-
-  <table border="0" cellpadding="0" cellspacing="0">
-    <colgroup>
-      <col width="146" />
-      <col width="388" />
-      <col width="90" />
-    </colgroup>
-    <tr>
-      <td><p >名詞</p></td>
-      <td><p >原因</p></td>
-      <td><p >結果</p></td>
-    </tr>
-    <tr>
-      <td><p >使用狀況統計</p></td>
-      <td><p >本系統需要記錄病人的使用狀況。</p></td>
-      <td><p >是</p></td>
-    </tr>
-    <tr>
-      <td><p >年齡比率</p></td>
-      <td><p >使用狀況統計的屬性。</p></td>
-      <td><p >否</p></td>
-    </tr>
-    <tr>
-      <td><p >身高比率</p></td>
-      <td><p >使用狀況統計的屬性。</p></td>
-      <td><p >否</p></td>
-    </tr>
-    <tr>
-      <td><p >性別比率</p></td>
-      <td><p >使用狀況統計的屬性。</p></td>
-      <td><p >否</p></td>
-    </tr>
-    <tr>
-      <td><p >體重比率</p></td>
-      <td><p >使用狀況統計的屬性。</p></td>
-      <td><p >否</p></td>
-    </tr>
-    <tr>
-      <td><p >病因統計</p></td>
-      <td><p >使用狀況統計的屬性。</p></td>
-      <td><p >否</p></td>
-    </tr>
-    <tr>
-      <td><p >使用者每個復健動作完成率</p>
-        <br /></td>
-      <td><p >使用狀況統計的屬性。</p></td>
-      <td><p >否</p></td>
-    </tr>
-  </table>
 
 <br />
 <p >意見回饋系統</p>
@@ -579,8 +508,116 @@
     </tr>
   </table>
 
-**OOOOXXXX**
-**OOOOXXXX**
+**個別使用案例的活動圖**
+</br>
+一、 身體狀況檢測系統</br>
+<p align="center"><img src="http://i.imgur.com/I4UUB8Z.png"></p>
+二、  互動式復健動作校正</br>
+<p align="center"><img src="http://i.imgur.com/OF48cVo.png"></p>
+三、  復健規劃建議系統</br>
+<p align="center"><img src="http://i.imgur.com/w4n2R0o.png"></p>
+四、 意見回饋系統</br>
+<p align="center"><img src="http://i.imgur.com/MwxvPlb.png"></p>
+</br>
 
+
+**使用案例主要成功情節之英文名稱事件對應**
+
+<table>
+  <tr>
+    <td colspan="2" valign="top"><p>使用案例：身體檢測系統 </p></td>
+  </tr>
+  <tr>
+    <td  valign="top"><p>1.系統開啟使用者登入畫面。 <br />
+      2.使用者最初使用本系統需要註冊登入，若非會員則列印申請表格通知，表格內容為身分證ID、名字name、性別male、血型blood-type、身高height、體重weight、重大疾病史、病因。 <br />
+      3.系統開啟主畫面。 <br />
+      4.系統開始身體狀況檢測系統畫面。 <br />
+      5.在主畫面使用者可以點擊身體狀況檢測系統，查看目前的身體狀況表。 <br />
+      3.結束後系統返回3動作。 </p></td>
+    <td  valign="top"><p>&nbsp;</p>
+      <p>signIn() <br />
+        printTable() <br />
+        <br />
+        <br />
+        <br />
+        showInfo(ID) </p>
+      <p>showInfo(ID) </p></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td colspan="2" valign="top"><p>使用案例：動作校正系統 </p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p>1. 在主畫面使用者點擊互動式復健動作校正進入系統。 <br />
+      2.系統開啟主畫面與互動式復健動作校正畫面。 <br />
+      3.使用者可以選擇系統自動規劃或自訂復健行程。 <br />
+      4.系統檢查使用者點選的服務，並且判斷其是否適合使用者狀況。 <br />
+      5.系統產生復健動作後，等待使用者動作。 <br />
+      6.使用者依照畫面示範的動作，依樣畫葫蘆地做。 <br />
+      7.系統會依造使用者的動作與資料庫比較，查看其動作正確性，並給予提示。 <br />
+      如果使用者姿勢錯誤則跳回4，等待正確。 <br />
+      反之，正確則跳回3，直到行程結束。 <br />
+      8.系統判斷使用者動作與系統資料庫動作資料是否相異，同則休息等待下次循環，異則給予使用者提示。 <br />
+      9.一連串復健行程結束後，跳出結算畫面與本次狀況，並記錄其正確率及錯誤率。 <br />
+      5.1系統開啟結算畫面，並且分析本次的復健記錄並回傳資料庫。 <br />
+      6.    &nbsp;&nbsp;結束後系統返回1動作。 </p></td>
+    <td valign="top"><p><br />
+      <br />
+      chooseSchedule(type) <br />
+      checkStatus() </p>
+      <p>showAction() </p>
+      <p>checkAction() <br />
+        showMsg() <br />
+        <br />
+        <br />
+        <br />
+        saveActionInfo() </p>
+      <p>showActionInfo() </p></td>
+  </tr>
+</table>
+<p><br />
+</p>
+<table>
+  <tr>
+    <td  colspan="2" valign="top"><br />
+      使用案例：復健規劃建議系統 </td>
+  </tr>
+  <tr>
+    <td valign="top"><p>1.使用者從主畫面點擊打開復健規劃建議系統。 <br />
+      2. 系統開啟復健規劃建議系統。 <br />
+      2. 顯示復健建議 <br />
+      3.查詢復健建議。 <br />
+      3.結束後返回動作1。 </p></td>
+    <td  valign="top"><p><br />
+      <br />
+      <br />
+      <br />
+      showAdvice() </p></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td  colspan="2" valign="top"><p>使用案例：統意見回饋系統 </p></td>
+  </tr>
+  <tr>
+    <td  valign="top"><p>1. 使用者點擊進入意見回饋系統 <br />
+      1. 系統開啟意見回饋表單 <br />
+      2. 使用者輸入發生時間、觸發的狀態、及出現的問題紀錄到表單之中，並點擊傳送。 <br />
+      2. 記錄表單資料，並傳送至資料庫。 <br />
+      3. 結束後回到動作1。 </p></td>
+    <td  valign="top"><p>&nbsp;</p>
+      <p>showForm() <br />
+        saveForm(time,status,problem) <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </p></td>
+  </tr>
+</table>
+
+**OOOOXXXX**
+**OOOOXXXX**
 **?、資料來源**
 http://www.carer.com.tw/edcontent.php?tb=2  
