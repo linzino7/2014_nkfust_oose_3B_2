@@ -323,6 +323,11 @@
 <p align="center"><img src="http://i.imgur.com/JQGKEdp.png"></p>
 </br>
 
+**整體使用案例的活動圖**
+</br>
+<p align="center"><img src="http://i.imgur.com/JPc6TlU.png"></p>
+</br>
+
 **每個使用案例的名詞與概念類別列舉表**
 <p >身體狀況檢測系統(林武震)</p>
 
