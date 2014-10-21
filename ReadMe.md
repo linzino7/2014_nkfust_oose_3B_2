@@ -617,6 +617,173 @@
   </tr>
 </table>
 
+**每個名稱事件之合約**
+</br>
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約1:signIn() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:signIn() <br />
+      交互參照: 身體檢測系統 <br />
+      前置條件:已開啟 BodyInfoList。 <br />
+      後置條件:-建立Patient類別的實例newPatien。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-把實例newPatien的ID與Password傳給BodyInfoList與ID比對。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-成功就回存ID否則呼叫例newPatien實例的printTable方法。 </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約2:printTable() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:printTable() <br />
+      交互參照:身體檢測系統 <br />
+      前置條件:已開啟 BodyInfoList 類別與 Patient類別。 <br />
+      後置條件:-被Patient類別的NewPatient 實例呼叫。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-直接輸出字串。 </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約3:showInfo() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:showInfo(ID) <br />
+      交互參照:身體檢測系統 <br />
+      前置條件:已開啟 Patient類別。 <br />
+      後置條件:-被Patient類別的NewPatient 實例呼叫，接收並接收ID。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-建BodyInfoList 類別的實例newBodyInfoList    。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-列出該ID的所有身體狀況ID、name、sex、blood、height、weight、disease 、history、etiology、patient、table、password。 </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約4:chooseSchedule() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:chooseSchedule(type) <br />
+      交互參照:動作校正系統 <br />
+      前置條件:無 <br />
+      後置條件:-建立Schedule類別的newSchedule 實例，接收type為dector or    custmoize。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-建立Advice 類別的newS立Advicee 實例，回傳type的行程。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-並回存至Schedule類別的newSchedule 實例的立AdvicePatient屬性。 </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約5:checkstatus() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:checkstatus() <br />
+      交互參照:動作校正系統 <br />
+      前置條件:以建立Schedule類別的newSchedule 實例，建立Advice 類別的newS立Advicee 實例 <br />
+      後置條件:-實例newBodyInfoList根據ID讀取disease 、history、etiology判斷。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-ture    or false </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約6:checkAction() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:checkAction() <br />
+      交互參照:動作校正系統 <br />
+      前置條件:存在類別Physiotherapy實例newPhysiotherapy <br />
+      後置條件:-實例newPhysiotherapy根據ResponseAction讀取資料庫比較資料是否正確。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-回傳Correct,Incorrect。 </p></td>
+  </tr>
+</table>
+<br clear="all" />
+<p>&nbsp;</p>
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約7:showMsg() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:showMsg() <br />
+      交互參照:動作校正系統 <br />
+      前置條件:已開啟:Physiotherapy物件。 <br />
+      後置條件:-根據Correct與Incorrect的資料。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-回傳Message。 </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約8:saveActionInfo() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:saveActionInfo(Correct,Incorrect,Times) <br />
+      交互參照:動作校正系統 <br />
+      前置條件:存在類別CheckList實例newCheckList。 <br />
+      後置條件:-實例newCheckList根據ID讀取資料庫並將Correct,Incorrect,Times存入資料庫。 </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約9:showActionInfo() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:showActionInfo() <br />
+      交互參照:動作校正系統 <br />
+      前置條件:存在類別CheckList實例newCheckList。 <br />
+      後置條件:-實例newCheckList根據ID讀取Correct,Incorrect,Times。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-回傳Correct,Incorrect,Times。 </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約10:showAdvice() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:showAdvice() <br />
+      交互參照:<strong>復健規劃建議系統</strong> <br />
+      前置條件:存在類別Advice實例newAdvice。 <br />
+      後置條件:-實例newAdive根據ID讀取AdviceCustomize。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-回傳AdviceCustomize。 </p></td>
+  </tr>
+</table>
+<br clear="all" />
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約11:showForm() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:showForm() <br />
+      交互參照:<strong>意見回饋系統</strong> <br />
+      前置條件:存在類別Response實例newResponse。 <br />
+      後置條件:-實例newResponse根據ID讀取Form。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-回傳No。 </p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table border="0" cellspacing="0" cellpadding="0" width="555">
+  <tr>
+    <td width="555" valign="top"><p>合約12:saveForm() </p></td>
+  </tr>
+  <tr>
+    <td width="555" valign="top"><p>操作:saveForm(No,time,status,problem) <br />
+      交互參照:<strong>意見回饋系統</strong> <br />
+      前置條件:存在類別Response實例newResponse。 <br />
+      後置條件:-實例newResponse根據No讀取資料庫資料。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-將time存入newResponse.time。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-將status存入newResponse.status。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-將problem存入newResponse.problem。 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-回傳Msg。 </p></td>
+  </tr>
+</table>
+
+
+**OOOOXXXX**
+**OOOOXXXX**
 **OOOOXXXX**
 **OOOOXXXX**
 **?、資料來源**
