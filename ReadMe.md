@@ -8,20 +8,20 @@
 
 **專題名稱:超好賺復健軟體**
 
-**壹、前言：**
+**壹、前言(林武震)：**
 <br>
 　　人口老化，是當今世界各個先進國家幾乎共同面臨的重要社會變遷，一般來說，國際上以老年人口（65歲以上）從7%增加到14%所需要的時間，象徵社會老化的速度，而我們所在的台灣，從民國82年（1993）老年人口比率跨越7%的人口高齡化國家（agingnation）門檻，到推估老年人口將突破14%的民國106年（2017）。但復健真的是屬於老人的專利嗎?近年來因為運動、工作需求或不良習慣需要復健的人數明顯的增加，且有年輕化的趨勢。本專題透過kinect與untiy製作體感遊戲，讓復健不在是痛苦無趣的事情，而是從體驗故事劇情與遊戲樂趣當中，度過這復健的時期。
 
-**貳、動機與目的：**
+**貳、動機與目的(陳則宏)：**
 <br>
 　　保守估計30-66%的中風患者，中風六個月後上肢動作功能仍有問題，接著就要進入復健的程序中。在進行復健行為時，會重複同一個動作，讓患者感到疲乏無趣，我們在本專題內透過kinect與unity，開發出適合中風患者的體感遊戲，以上肢動作訓練為復健之重點，讓使用者在進行復健時不會感到無趣。
 
 
 
-**參、利害關係人**
+**參、利害關係人(林建興)**
 <p align="center"><img src="http://i.imgur.com/Ih3kurh.jpg"></p>
 
-**肆、利害關係人目標表**
+**肆、利害關係人目標表(林武震)**
 <table border="0" cellpadding="0" cellspacing="0">
     <tr>
       <td><p >利害關係人（參與者）</p></td>
@@ -46,11 +46,11 @@
     </tr>
  </table>
   
-**伍、需求分析**
+**伍、需求分析(陳則宏)**
 <br>
 <p align="center"><img src="http://i.imgur.com/BEUQbLg.jpg"></p>
 
-**陸、事件與使用案例表**
+**陸、事件與使用案例表(林建興)**
 
 <table border="0" cellpadding="0" cellspacing="0">
   <tr>
@@ -86,7 +86,7 @@
   </tr>
 </table>
 
-**使用案例圖**
+**使用案例圖(林武震)**
 <p align="center"><img src="http://i.imgur.com/iXMcMIS.png"></p>
 
 
@@ -95,7 +95,7 @@
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="149" valign="top"><p>使用案例名稱 </p></td>
-    <td width="408" colspan="2" valign="top"><p>身體狀況檢測系統。 </p></td>
+    <td width="408" colspan="2" valign="top"><p>身體狀況檢測系統(陳則宏)。 </p></td>
   </tr>
   <tr>
     <td width="149" valign="top"><p>使用案例敘述 </p></td>
@@ -147,7 +147,7 @@
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="149" valign="top"><p>使用案例名稱 </p></td>
-    <td width="408" colspan="2" valign="top"><p>互動式復健動作校正。 </p></td>
+    <td width="408" colspan="2" valign="top"><p>互動式復健動作校正(林建興)。 </p></td>
   </tr>
   <tr>
     <td width="149" valign="top"><p>使用案例敘述 </p></td>
@@ -209,7 +209,7 @@
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="149" valign="top"><p>使用案例名稱</p></td>
-    <td width="408" colspan="2" valign="top"><p>復健規劃建議系統</p></td>
+    <td width="408" colspan="2" valign="top"><p>復健規劃建議系統(林武震)。</p></td>
   </tr>
   <tr>
     <td width="149" valign="top"><p>使用案例敘述</p></td>
@@ -268,7 +268,7 @@
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="149" valign="top"><p>使用案例名稱</p></td>
-    <td width="408" colspan="2" valign="top"><p>意見回饋系統 </p></td>
+    <td width="408" colspan="2" valign="top"><p>意見回饋系統(陳則宏)。</p></td>
   </tr>
   <tr>
     <td width="149" valign="top"><p>使用案例敘述</p></td>
@@ -321,18 +321,18 @@
 
 **個別使用案例的活動圖**
 </br>
-一、 身體狀況檢測系統</br>
+一、 身體狀況檢測系統(林建興)</br>
 <p align="center"><img src="http://i.imgur.com/YWVurIZ.png"></p>
-二、  互動式復健動作校正</br>
+二、  互動式復健動作校正(林武震)</br>
 <p align="center"><img src="http://i.imgur.com/fRFuzLu.png"></p>
-三、  復健規劃建議系統</br>
+三、  復健規劃建議系統(陳則宏)</br>
 <p align="center"><img src="http://i.imgur.com/Bp06VGI.png"></p>
-四、 意見回饋系統</br>
+四、 意見回饋系統(林建興)</br>
 <p align="center"><img src="http://i.imgur.com/JQGKEdp.png"></p>
 </br>
 
 **每個使用案例的名詞與概念類別列舉表**
-<p >身體狀況檢測系統</p>
+<p >身體狀況檢測系統(林武震)</p>
 
   <table border="0" cellpadding="0" cellspacing="0">
     <colgroup>
@@ -404,7 +404,7 @@
   </table>
 
 <br />
-<p >互動式復健動作校正。</p>
+<p >互動式復健動作校正(陳則宏)。</p>
 
   <table border="0" cellpadding="0" cellspacing="0">
     <colgroup>
@@ -441,7 +441,7 @@
 
 
 <br />
-<p >復健規劃建議系統</p>
+<p >復健規劃建議系統(林建興)</p>
 
   <table border="0" cellpadding="0" cellspacing="0">
     <colgroup>
@@ -468,7 +468,7 @@
 
 
 <br />
-<p >意見回饋系統</p>
+<p >意見回饋系統(林武震)</p>
 
   <table border="0" cellpadding="0" cellspacing="0">
     <colgroup>
@@ -510,13 +510,13 @@
 
 **個別使用案例的活動圖**
 </br>
-一、 身體狀況檢測系統</br>
+一、 身體狀況檢測系統(陳則宏)</br>
 <p align="center"><img src="http://i.imgur.com/I4UUB8Z.png"></p>
-二、  互動式復健動作校正</br>
+二、  互動式復健動作校正(林建興)</br>
 <p align="center"><img src="http://i.imgur.com/OF48cVo.png"></p>
-三、  復健規劃建議系統</br>
+三、  復健規劃建議系統(林武震)</br>
 <p align="center"><img src="http://i.imgur.com/w4n2R0o.png"></p>
-四、 意見回饋系統</br>
+四、 意見回饋系統(陳則宏)</br>
 <p align="center"><img src="http://i.imgur.com/MwxvPlb.png"></p>
 </br>
 
@@ -525,7 +525,7 @@
 
 <table>
   <tr>
-    <td colspan="2" valign="top"><p>使用案例：身體檢測系統 </p></td>
+    <td colspan="2" valign="top"><p>使用案例：身體檢測系統(林建興) </p></td>
   </tr>
   <tr>
     <td  valign="top"><p>1.系統開啟使用者登入畫面。 <br />
@@ -546,7 +546,7 @@
 </table>
 <table>
   <tr>
-    <td colspan="2" valign="top"><p>使用案例：動作校正系統 </p></td>
+    <td colspan="2" valign="top"><p>使用案例：動作校正系統(林武震)</p></td>
   </tr>
   <tr>
     <td valign="top"><p>1. 在主畫面使用者點擊互動式復健動作校正進入系統。 <br />
@@ -581,7 +581,7 @@
 <table>
   <tr>
     <td  colspan="2" valign="top"><br />
-      使用案例：復健規劃建議系統 </td>
+      使用案例：復健規劃建議系統(陳則宏)</td>
   </tr>
   <tr>
     <td valign="top"><p>1.使用者從主畫面點擊打開復健規劃建議系統。 <br />
@@ -598,7 +598,7 @@
 </table>
 <table>
   <tr>
-    <td  colspan="2" valign="top"><p>使用案例：統意見回饋系統 </p></td>
+    <td  colspan="2" valign="top"><p>使用案例：統意見回饋系統(林建興)</p></td>
   </tr>
   <tr>
     <td  valign="top"><p>1. 使用者點擊進入意見回饋系統 <br />
@@ -621,7 +621,7 @@
 </br>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約1:signIn() </p></td>
+    <td width="555" valign="top"><p>合約1:signIn() (林武震)</p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:signIn() <br />
@@ -635,7 +635,7 @@
 <p>&nbsp;</p>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約2:printTable() </p></td>
+    <td width="555" valign="top"><p>合約2:printTable() (陳則宏) </p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:printTable() <br />
@@ -648,7 +648,7 @@
 <p>&nbsp;</p>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約3:showInfo() </p></td>
+    <td width="555" valign="top"><p>合約3:showInfo() (林建興)</p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:showInfo(ID) <br />
@@ -662,7 +662,7 @@
 <p>&nbsp;</p>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約4:chooseSchedule() </p></td>
+    <td width="555" valign="top"><p>合約4:chooseSchedule() (林武震)</p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:chooseSchedule(type) <br />
@@ -676,7 +676,7 @@
 <p>&nbsp;</p>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約5:checkstatus() </p></td>
+    <td width="555" valign="top"><p>合約5:checkstatus() (陳則宏)</p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:checkstatus() <br />
@@ -689,7 +689,7 @@
 <p>&nbsp;</p>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約6:checkAction() </p></td>
+    <td width="555" valign="top"><p>合約6:checkAction() (林建興)</p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:checkAction() <br />
@@ -703,7 +703,7 @@
 <p>&nbsp;</p>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約7:showMsg() </p></td>
+    <td width="555" valign="top"><p>合約7:showMsg() (林武震)</p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:showMsg() <br />
@@ -716,7 +716,7 @@
 <p>&nbsp;</p>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約8:saveActionInfo() </p></td>
+    <td width="555" valign="top"><p>合約8:saveActionInfo() (陳則宏)</p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:saveActionInfo(Correct,Incorrect,Times) <br />
@@ -728,7 +728,7 @@
 <p>&nbsp;</p>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約9:showActionInfo() </p></td>
+    <td width="555" valign="top"><p>合約9:showActionInfo() (林建興)</p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:showActionInfo() <br />
@@ -741,7 +741,7 @@
 <p>&nbsp;</p>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約10:showAdvice() </p></td>
+    <td width="555" valign="top"><p>合約10:showAdvice() (林武震)</p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:showAdvice() <br />
@@ -754,7 +754,7 @@
 <br clear="all" />
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約11:showForm() </p></td>
+    <td width="555" valign="top"><p>合約11:showForm() (陳則宏)</p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:showForm() <br />
@@ -767,7 +767,7 @@
 <p>&nbsp;</p>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
-    <td width="555" valign="top"><p>合約12:saveForm() </p></td>
+    <td width="555" valign="top"><p>合約12:saveForm() (林建興)</p></td>
   </tr>
   <tr>
     <td width="555" valign="top"><p>操作:saveForm(No,time,status,problem) <br />
@@ -785,13 +785,13 @@
 **使用案例之系統循序圖**
 <br>
 <br>
-一、 身體狀況檢測系統</br>
+一、 身體狀況檢測系統(林武震)</br>
 <p align="center"><img src="http://i.imgur.com/XKns58V.png"></p>
-二、  互動式復健動作校正</br>
+二、  互動式復健動作校正(陳則宏)</br>
 <p align="center"><img src="http://i.imgur.com/XR2gs2b.png"></p>
-三、  復健規劃建議系統</br>
+三、  復健規劃建議系統(林建興)</br>
 <p align="center"><img src="http://i.imgur.com/KhR2LCa.png"></p>
-四、 意見回饋系統</br>
+四、 意見回饋系統(林武震)</br>
 <p align="center"><img src="http://i.imgur.com/fbDKbLF.png"></p>
 </br>
 
