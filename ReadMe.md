@@ -314,19 +314,16 @@
 **個別使用案例的活動圖**
 </br>
 一、 身體狀況檢測系統(林建興)</br>
-<p align="center"><img src="http://i.imgur.com/F7SCbUR.png"></p>
+<p align="center"><img src="http://i.imgur.com/9aT48uS.png"></p>
 二、  互動式復健動作校正(林武震)</br>
-<p align="center"><img src="http://i.imgur.com/8OKoxAx.png"></p>
+<p align="center"><img src="http://i.imgur.com/G2foqxn.png"></p>
 三、  復健規劃建議系統(陳則宏)</br>
-<p align="center"><img src="http://i.imgur.com/SfYY9tr.png"></p>
+<p align="center"><img src="http://i.imgur.com/2wCb3aK.png"></p>
 四、 意見回饋系統(林建興)</br>
-<p align="center"><img src="http://i.imgur.com/mcKXzwW.png"></p>
+<p align="center"><img src="http://i.imgur.com/1q4cKzY.png"></p>
 </br>
 
-**整體使用案例的活動圖**
-</br>
-<p align="center"><img src="http://i.imgur.com/JPc6TlU.png"></p>
-</br>
+
 
 **每個使用案例的名詞與概念類別列舉表**
 <p >身體狀況檢測系統(林武震)</p>
@@ -508,15 +505,19 @@
 **初步類別圖**
 </br>
 一、 身體狀況檢測系統(陳則宏)</br>
-<p align="center"><img src="http://i.imgur.com/I4UUB8Z.png"></p>
+<p align="center"><img src="http://i.imgur.com/dzePSQ1.png"></p>
 二、  互動式復健動作校正(林建興)</br>
-<p align="center"><img src="http://i.imgur.com/OF48cVo.png"></p>
+<p align="center"><img src="http://i.imgur.com/akYvR3s.png"></p>
 三、  復健規劃建議系統(林武震)</br>
-<p align="center"><img src="http://i.imgur.com/w4n2R0o.png"></p>
+<p align="center"><img src="http://i.imgur.com/ufkcfdT.png"></p>
 四、 意見回饋系統(陳則宏)</br>
-<p align="center"><img src="http://i.imgur.com/MwxvPlb.png"></p>
+<p align="center"><img src="http://i.imgur.com/fj5sOEH.png"></p>
 </br>
 
+**整體類別圖**
+</br>
+<p align="center"><img src="http://i.imgur.com/qpkxHO5.png"></p>
+</br>
 
 **使用案例主要成功情節之英文名稱事件對應**
 
@@ -538,7 +539,7 @@
         <br />
         <br />
         showInfo(ID) </p>
-      <p>showInfo(ID) </p></td>
+      </td>
   </tr>
 </table>
 <table>
@@ -783,13 +784,13 @@
 <br>
 <br>
 一、 身體狀況檢測系統(林武震)</br>
-<p align="center"><img src="http://i.imgur.com/XKns58V.png"></p>
+<p align="center"><img src="http://i.imgur.com/ewkfMgb.png"></p>
 二、  互動式復健動作校正(陳則宏)</br>
-<p align="center"><img src="http://i.imgur.com/hEry4Qf.png"></p>
+<p align="center"><img src="http://i.imgur.com/cngW0li.png"></p>
 三、  復健規劃建議系統(林建興)</br>
-<p align="center"><img src="http://i.imgur.com/KhR2LCa.png"></p>
+<p align="center"><img src="http://i.imgur.com/M818EBl.png"></p>
 四、 意見回饋系統(林武震)</br>
-<p align="center"><img src="http://i.imgur.com/fbDKbLF.png"></p>
+<p align="center"><img src="http://i.imgur.com/JYXjgMn.png"></p>
 </br>
 
 
