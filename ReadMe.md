@@ -44,11 +44,6 @@
       <td><p>1.正確地掌控使用者的復健狀況。</p>
         <p>2.即時給予適當使用者的復健決策。</p></td>
     </tr>
-    <tr>
-      <td><p>家屬</p></td>
-      <td><p>1.快速地了解使用者實際狀況。</p>
-        <p>2.即時獲得相關適合使用者的復健改善方法或建議。</p></td>
-    </tr>
  </table>
   
 **伍、需求分析(陳則宏)**
@@ -84,7 +79,7 @@
 </table>
 
 **使用案例圖(林武震)**
-<p align="center"><img src="http://i.imgur.com/iXMcMIS.png"></p>
+<p align="center"><img src="http://i.imgur.com/DHfdKne.png"></p>
 
 
 **個別使用案例**
