@@ -565,7 +565,7 @@
         <br />
         <br />
         <br />
-        saveActionInfo() </p>
+        saveActionInfo(int Correct,int Incorrect,int Times)  </p>
       <p>showActionInfo() </p></td>
   </tr>
 </table>
