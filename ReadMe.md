@@ -644,7 +644,7 @@
     <td width="555" valign="top"><p>合約3:showInfo() (林建興)</p></td>
   </tr>
   <tr>
-    <td width="555" valign="top"><p>操作:showInfo(ID) <br />
+    <td width="555" valign="top"><p>操作:showInfo(String ID) <br />
       交互參照:身體檢測系統 <br />
       前置條件:已開啟 Patient類別。 <br />
       後置條件:-被Patient類別的NewPatient 實例呼叫，接收並接收ID。 <br />
@@ -658,7 +658,7 @@
     <td width="555" valign="top"><p>合約4:chooseSchedule() (林武震)</p></td>
   </tr>
   <tr>
-    <td width="555" valign="top"><p>操作:chooseSchedule(type) <br />
+    <td width="555" valign="top"><p>操作:chooseSchedule(Boolean type) <br />
       交互參照:動作校正系統 <br />
       前置條件:無 <br />
       後置條件:-建立Schedule類別的newSchedule 實例，接收type為dector or    custmoize。 <br />
@@ -712,7 +712,7 @@
     <td width="555" valign="top"><p>合約8:saveActionInfo() (陳則宏)</p></td>
   </tr>
   <tr>
-    <td width="555" valign="top"><p>操作:saveActionInfo(Correct,Incorrect,Times) <br />
+    <td width="555" valign="top"><p>操作:saveActionInfo(int Correct,int Incorrect,int Times) <br />
       交互參照:動作校正系統 <br />
       前置條件:存在類別CheckList實例newCheckList。 <br />
       後置條件:-實例newCheckList根據ID讀取資料庫並將Correct,Incorrect,Times存入資料庫。 </p></td>
@@ -763,7 +763,7 @@
     <td width="555" valign="top"><p>合約12:saveForm() (林建興)</p></td>
   </tr>
   <tr>
-    <td width="555" valign="top"><p>操作:saveForm(No,time,status,problem) <br />
+    <td width="555" valign="top"><p>操作:saveForm(String No,DateTime time,String status,String problem) <br />
       交互參照:<strong>意見回饋系統</strong> <br />
       前置條件:存在類別Response實例newResponse。 <br />
       後置條件:-實例newResponse根據No讀取資料庫資料。 <br />
