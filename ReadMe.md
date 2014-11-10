@@ -533,7 +533,7 @@
         <br />
         <br />
         <br />
-        showInfo(ID) </p>
+        showInfo(String ID) </p>
       </td>
   </tr>
 </table>
@@ -557,7 +557,7 @@
       6.    &nbsp;&nbsp;結束後系統返回1動作。 </p></td>
     <td valign="top"><p><br />
       <br />
-      chooseSchedule(type) <br />
+      chooseSchedule(Boolean type) <br />
       checkStatus() </p>
       <p>showAction() </p>
       <p>checkAction() <br />
@@ -601,7 +601,7 @@
       3. 結束後回到動作1。 </p></td>
     <td  valign="top"><p>&nbsp;</p>
       <p>showForm() <br />
-        saveForm(time,status,problem) <br />
+        saveForm(DateTime time,String status,String problem) <br />
         <br />
         <br />
         <br />
