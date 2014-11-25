@@ -758,7 +758,7 @@
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-回傳Message。 </p></td>
   </tr>
 </table>
-<p>&nbsp;</p>
+<p>&nbsp;</p> 
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
     <td width="555" valign="top"><p>合約8:saveActionInfo() (陳則宏)</p></td>
