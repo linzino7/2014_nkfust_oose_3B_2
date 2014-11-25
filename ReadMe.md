@@ -2,7 +2,7 @@
 
 ## 組員: ##
 - 0124006 陳則宏
-- 0124012 林建興<3
+- 0124012 林建興
 - 0124032 林武震
 
 
@@ -16,7 +16,7 @@
 **壹、前言(林武震)：**
 <br>
 　　人口老化，是當今世界各個先進國家幾乎共同面臨的重要社會變遷，一般來說，國際上以老年人口（65歲以上）從7%增加到14%所需要的時間，象徵社會老化的速度，而我們所在的台灣，從民國82年（1993）老年人口比率跨越7%的人口高齡化國家（agingnation）門檻，到推估老年人口將突破14%的民國106年（2017）。但復健真的是屬於老人的專利嗎?近年來因為運動、工作需求或不良習慣需要復健的人數明顯的增加，且有年輕化的趨勢。本專題透過kinect與untiy製作體感遊戲，讓復健不在是痛苦無趣的事情，而是從體驗故事劇情與遊戲樂趣當中，度過這復健的時期。
- 
+
 **貳、動機與目的(陳則宏)：**
 <br>
 　　保守估計30-66%的中風患者，中風六個月後上肢動作功能仍有問題，接著就要進入復健的程序中。在進行復健行為時，會重複同一個動作，讓患者感到疲乏無趣，我們在本專題內透過kinect與unity，開發出適合中風患者的體感遊戲，以上肢動作訓練為復健之重點，讓病人在進行復健時不會感到無趣。
@@ -365,7 +365,7 @@
 <p align="center"><img src="https://cacoo.com/diagrams/3K8XWUbPqvxh4lFW-DFBC8.png"></p>
 四、 意見回饋系統(林建興)</br>
 <p align="center"><img src="https://cacoo.com/diagrams/wdZP4X0njC6b2xGy-3EB0D.png"></p>
-</br> 
+</br>
 五、 登入系統(林建興)</br>
 <p align="center"><img src="https://cacoo.com/diagrams/wdZP4X0njC6b2xGy-3EB0D.png"></p>
 </br>
@@ -567,26 +567,34 @@
 </br>
 
 **使用案例主要成功情節之英文名稱事件對應**
+<table>
+  <tr>
+    <td colspan="2" valign="top"><p>使用案例：登入系統(林建興) </p></td>
+  </tr>
+  <tr>
+    <td  valign="top"><p>1.系統開啟病人登入畫面。 <br />
+      2.病人最初使用本系統需要註冊登入，若非會員則列印申請表格通知。</p></td>
+    <td  valign="top"><p>signIn() <br />
+        printTable() <br />
+      showMessage(String ID) </p></td>
+  </tr>
+</table>
 
 <table>
   <tr>
     <td colspan="2" valign="top"><p>使用案例：身體檢測系統(林建興) </p></td>
   </tr>
   <tr>
-    <td  valign="top"><p>1.系統開啟病人登入畫面。 <br />
-      2.病人最初使用本系統需要註冊登入，若非會員則列印申請表格通知，表格內容為身分證ID、名字name、性別male、血型blood-type、身高height、體重weight、重大疾病史、病因。 <br />
+    <td  valign="top"><p>1.系統開啟入身體檢測系統畫面。 <br />
+      2.表格內容為身分證ID、名字name、性別male、血型blood-type、身高height、體重weight、重大疾病史、病因。 <br />
       3.系統開啟主畫面。 <br />
       4.系統開始身體狀況檢測系統畫面。 <br />
       5.在主畫面病人可以點擊身體狀況檢測系統，查看目前的身體狀況表。 <br />
       3.結束後系統返回3動作。 </p></td>
-    <td  valign="top"><p>&nbsp;</p>
-      <p>signIn() <br />
-        printTable() <br />
+    <td  valign="top"><p><br />
         <br />
         <br />
-        <br />
-        showInfo(String ID) </p>
-      </td>
+      showInfo(String ID) </p></td>
   </tr>
 </table>
 <table>
@@ -634,11 +642,11 @@
       2. 顯示復健建議 <br />
       3.查詢復健建議。 <br />
       3.結束後返回動作1。 </p></td>
-    <td  valign="top"><p><br />
+    <td  valign="top"><p>getAdvice(No:Integer)<br />
+      setAdvice(No:Integer,Msg:String)<br />
       <br />
       <br />
-      <br />
-      showAdvice() </p></td>
+      showAdvice(No:Integer) </p></td>
   </tr>
 </table>
 <table>
@@ -661,7 +669,6 @@
       </p></td>
   </tr>
 </table>
-
 **每個名稱事件之合約**
 </br>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
@@ -758,7 +765,7 @@
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-回傳Message。 </p></td>
   </tr>
 </table>
-<p>&nbsp;</p> 
+<p>&nbsp;</p>
 <table border="0" cellspacing="0" cellpadding="0" width="555">
   <tr>
     <td width="555" valign="top"><p>合約8:saveActionInfo() (陳則宏)</p></td>
