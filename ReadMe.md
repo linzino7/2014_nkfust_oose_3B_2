@@ -504,18 +504,18 @@
 **初步類別圖**
 </br>
 一、 身體狀況檢測系統(陳則宏)</br>
-<p align="center"><img src="http://i.imgur.com/dzePSQ1.png"></p>
+<p align="center"><img src="https://cacoo.com/diagrams/go3TnHEogfRzYKVZ-DFBC8.png"></p>
 二、  互動式復健動作校正(林建興)</br>
-<p align="center"><img src="http://i.imgur.com/akYvR3s.png"></p>
+<p align="center"><img src="https://cacoo.com/diagrams/3K8XWUbPqvxh4lFW-DFBC8.png"></p>
 三、  復健規劃建議系統(林武震)</br>
-<p align="center"><img src="http://i.imgur.com/6ajqWac.png"></p>
+<p align="center"><img src="https://cacoo.com/diagrams/V5kM2qOsY6nXOTT3-DFBC8.png"></p>
 四、 意見回饋系統(陳則宏)</br>
-<p align="center"><img src="http://i.imgur.com/0cnk5RJ.png"></p>
+<p align="center"><img src="https://cacoo.com/diagrams/eJA0zw1N0trudMLI-DFBC8.png"></p>
 </br>
 
 **整體類別圖**
 </br>
-<p align="center"><img src="http://i.imgur.com/c9CC5c3.png"></p>
+<p align="center"><img src="https://cacoo.com/diagrams/V0ulAosBhkAKc4zR-DFBC8.png"></p>
 </br>
 
 **使用案例主要成功情節之英文名稱事件對應**
