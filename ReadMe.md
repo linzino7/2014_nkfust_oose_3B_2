@@ -75,11 +75,8 @@
 </table>
 
 **使用案例圖(林武震)**
-<img src="https://cacoo.com/diagrams/9V3DqxESZEIuFCm7-993B8.png">
-<img src="https://cacoo.com/diagrams/V0ulAosBhkAKc4zR-DFBC8.png">
-<p align="center"><img src="https://cacoo.com/diagrams/V0ulAosBhkAKc4zR-DFBC8.png"></p>
 
-<iframe src="https://cacoo.com/diagrams/V0ulAosBhkAKc4zR/view" width="402" height="330" frameborder="0" scrolling="no"></iframe>
+<p align="center"><img src="https://cacoo.com/diagrams/tV6tajpvwM119JR0-E3B1B.png"></p>
 
 
 **個別使用案例**
