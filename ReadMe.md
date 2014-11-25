@@ -80,7 +80,55 @@
 
 
 **個別使用案例**
-
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="149" valign="top"><p>使用案例名稱 </p></td>
+    <td width="408" colspan="2" valign="top"><p>登入系統(林武震)。 </p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>使用案例敘述 </p></td>
+    <td width="408" colspan="2" valign="top"><p>登入復健系統。 </p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>主要參與者 </p></td>
+    <td width="408" colspan="2" valign="top"><p>病人。 </p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>利害關係人與目標 </p></td>
+    <td width="408" colspan="2" valign="top"><p>病人：登入系統。 </p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>前置條件 </p></td>
+    <td width="408" colspan="2" valign="top"><p>無。 </p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>後置條件 </p></td>
+    <td width="408" colspan="2" valign="top"><p>無。 </p></td>
+  </tr>
+  <tr>
+    <td width="149" rowspan="2" valign="top"><p>主要成功情節 </p></td>
+    <td width="204" valign="top"><p>參與者 </p></td>
+    <td width="204" valign="top"><p>系統 </p></td>
+  </tr>
+  <tr>
+    <td width="204" valign="top">
+      <ol>
+        <li>病人最初登入系統需要輸入身份證字號。</li>
+        <li>如果輸入正確則進入主畫面。否則產生申請表單。</li>
+      </ol>    </td>
+    <td width="204" valign="top">
+      <p>1.1系統開啟病人登入畫面與註冊畫面。</p>
+    <p>2.1系統開啟主畫面。</p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>例外情節 </p></td>
+    <td width="408" colspan="2" valign="top"><p>病人輸入錯誤或不正確資料，系統需要顯示警告訊息並要求重新輸入。 </p></td>
+  </tr>
+  <tr>
+    <td width="149" valign="top"><p>其他需求 </p></td>
+    <td width="408" colspan="2" valign="top"><p>&nbsp;</p></td>
+  </tr>
+</table>
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="149" valign="top"><p>使用案例名稱 </p></td>
@@ -314,7 +362,7 @@
 二、  互動式復健動作校正(林武震)</br>
 <p align="center"><img src="https://cacoo.com/diagrams/Bs7AyngazYeAaECt-3EB0D.png"></p>
 三、  復健規劃建議系統(陳則宏)</br>
-<p align="center"><img src="https://cacoo.com/diagrams/qIALDrFJiR48wOlY-47966.png"></p>
+<p align="center"><img src="https://cacoo.com/diagrams/3K8XWUbPqvxh4lFW-DFBC8.png"></p>
 四、 意見回饋系統(林建興)</br>
 <p align="center"><img src="https://cacoo.com/diagrams/wdZP4X0njC6b2xGy-3EB0D.png"></p>
 </br>
@@ -504,18 +552,18 @@
 **初步類別圖**
 </br>
 一、 身體狀況檢測系統(陳則宏)</br>
-<p align="center"><img src="https://cacoo.com/diagrams/go3TnHEogfRzYKVZ-DFBC8.png"></p>
+<p align="center"><img src="http://i.imgur.com/dzePSQ1.png"></p>
 二、  互動式復健動作校正(林建興)</br>
-<p align="center"><img src="https://cacoo.com/diagrams/3K8XWUbPqvxh4lFW-DFBC8.png"></p>
+<p align="center"><img src="http://i.imgur.com/akYvR3s.png"></p>
 三、  復健規劃建議系統(林武震)</br>
-<p align="center"><img src="https://cacoo.com/diagrams/V5kM2qOsY6nXOTT3-DFBC8.png"></p>
+<p align="center"><img src="http://i.imgur.com/6ajqWac.png"></p>
 四、 意見回饋系統(陳則宏)</br>
-<p align="center"><img src="https://cacoo.com/diagrams/eJA0zw1N0trudMLI-DFBC8.png"></p>
+<p align="center"><img src="http://i.imgur.com/0cnk5RJ.png"></p>
 </br>
 
 **整體類別圖**
 </br>
-<p align="center"><img src="https://cacoo.com/diagrams/V0ulAosBhkAKc4zR-DFBC8.png"></p>
+<p align="center"><img src="http://i.imgur.com/c9CC5c3.png"></p>
 </br>
 
 **使用案例主要成功情節之英文名稱事件對應**
