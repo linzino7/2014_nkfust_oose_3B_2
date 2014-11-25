@@ -75,7 +75,7 @@
 </table>
 
 **使用案例圖(林武震)**
-<p align="center"><img src="https://cacoo.com/diagrams/V0ulAosBhkAKc4zR-DFBC8.png"></p>
+<iframe src="https://cacoo.com/diagrams/tV6tajpvwM119JR0/view" width="402" height="330" frameborder="0" scrolling="no"></iframe>
 
 
 **個別使用案例**
