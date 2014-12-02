@@ -91,7 +91,7 @@
   </tr>
   <tr>
     <td width="149" valign="top"><p>主要參與者 </p></td>
-    <td width="408" colspan="2" valign="top"><p>病人。 </p></td>
+    <td width="408" colspan="2" valign="top"><p>病人。 </p></td> 
   </tr>
   <tr>
     <td width="149" valign="top"><p>利害關係人與目標 </p></td>
