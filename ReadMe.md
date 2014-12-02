@@ -580,7 +580,7 @@
 
 **整體類別圖**
 </br>
-<p align="center"><img src="http://i.imgur.com/c9CC5c3.png"></p>
+<p align="center"><img src="https://cacoo.com/diagrams/V0ulAosBhkAKc4zR-DFBC8.png"></p>
 </br>
 
 **使用案例主要成功情節之英文名稱事件對應**
