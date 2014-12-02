@@ -548,6 +548,10 @@
       <td><p >否</p></td>
     </tr>
   </table>
+  
+**強韌圖**
+一、 身體狀況檢測系統(陳則宏)</br>
+<p align="center"><img src="https://cacoo.com/diagrams/yvFuhLBC0yzNEVAM-65F87.png"></p>
 
 **初步類別圖**
 </br>
