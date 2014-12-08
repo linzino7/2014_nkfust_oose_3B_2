@@ -864,7 +864,23 @@
 <p align="center"><img src="http://i.imgur.com/2xBdGkx.png"></p>
 </br>
 五、 系統登入(林武震)</br>
-<p align="center"><img src="http://i.imgur.com/mDV9SBw.png"></p>
+<p align="center"><img src="http://i.imgur.com/fMpiSAW.png"></p>
+</br>
+
+**使用案例之循序圖**
+<br>
+<br>
+一、 身體狀況檢測系統(林武震)</br>
+<p align="center"><img src="http://i.imgur.com/xkES72N.png"></p>
+二、  互動式復健動作校正(陳則宏)</br>
+<p align="center"><img src="http://i.imgur.com/l7lYQML.png"></p>
+三、  復健規劃建議系統(林建興)</br>
+<p align="center"><img src="http://i.imgur.com/53chApp.png"></p>
+四、 意見回饋系統(林武震)</br>
+<p align="center"><img src="http://i.imgur.com/AVmUNiG.png"></p>
+</br>
+五、 系統登入(林武震)</br>
+<p align="center"><img src="http://i.imgur.com/1L8oGLz.png"></p>
 </br>
 
 
