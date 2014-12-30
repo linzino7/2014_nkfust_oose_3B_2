@@ -6,7 +6,7 @@
 - 0124032 林武震
 
 
-**專題名稱:超好賺復健系統**
+**專題名稱:復健一點通**
 
 <p align="center"><img src="http://i.imgur.com/zhaXy4y.png"></p>
 </br>
